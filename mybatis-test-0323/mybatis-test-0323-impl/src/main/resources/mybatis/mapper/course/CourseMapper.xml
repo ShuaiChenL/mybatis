@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shanghai.uofst.dao.course.CourseDao">
+    <sql id="CourseColumnsResult">
+        id as id,
+        course_id as courseId,
+        title as title,
+        dept_name as deptName,
+        credits as credits
+    </sql>
+
+</mapper>

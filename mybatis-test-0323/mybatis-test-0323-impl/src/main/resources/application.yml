@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mybatis-test-0323
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cheney
+    username: root
+    password: password
+
+server:
+  port: 2510
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  type-aliases-package: com.shanghai.uofst.model
